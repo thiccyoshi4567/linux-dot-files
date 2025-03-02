@@ -1,0 +1,5 @@
+alias update="sudo apt update && sudo apt upgrade && flatpak update"
+alias netstat="netstat && echo 'Hey! You should be using ss, netstat is deprecated!'"
+alias ifconfig="ifconfig && echo 'Hey! You should be using ip, ifconfig is deprecated!'"
+alias iwconfig="iwconfig && echo 'Hey! You should be using iw, iwconfig is deprecated!'"
+alias route="route && echo 'Hey! You should be using ip route, route is deprecated!'"
